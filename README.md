@@ -6,6 +6,8 @@ The plugin will redirect you from userstyles.org to a privacy-friendly version i
 
 It is highly recommended to install Stylus, [(Chrome)](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [(Firefox)](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) as Styl***ish*** steals your search history
 
+![Screenshot](img/screenshot.png)
+
 # What works? What doesn't work?
 
 ## ✅ What works?
