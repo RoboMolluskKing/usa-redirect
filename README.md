@@ -16,7 +16,7 @@ It is highly recommended to install Stylus, ([Chrome](https://chrome.google.com/
 
 ## ❎ What doesn't work?
 - DuckDuckGo's !bang redirect ***with*** a search query (!us ~~youtube~~, !ustyles ~~youtube~~, !userstyles ~~youtube~~)
-- Installing themes in private windows (that's another story)
+- Clicking the "UserStyles.org" button on any style preview (redirects to home menu instead)
 
 # How to install
 
