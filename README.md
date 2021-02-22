@@ -1,25 +1,28 @@
-# Old Reddit Redirect
+# Userstyles Redirect
 
-[Chrome extension](https://chrome.google.com/webstore/detail/old-reddit-redirect/dneaehbmnbhcippjikoajpoabadpodje)
+This extension is a hard fork of [Old Reddit Redirect.](https://github.com/tom-james-watson/old-reddit-redirect)
 
-[Firefox extension](https://addons.mozilla.org/firefox/addon/old-reddit-redirect)
+The plugin will redirect you from userstyles.org to a privacy-friendly version instead, such as [33kk's Userstyles Archive](https://33kk.github.io/uso-archive/)
 
-Dislike Reddit's redesign? Old Reddit Redirect will ensure that you always load the old (old.reddit.com) design instead.
+It is highly recommended to install Stylus, [(Chrome)](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [(Firefox)](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) as Styl***ish*** steals your search history
 
-Will force all reddit.com usage to old.reddit.com. Will work when navigating to the site, opening links, using old bookmarks. Works regardless of whether you are logged in or not, and in incognito mode.
+# What works? What doesn't work?
 
-#### Redirected domains
+## ✅ What works?
+- DuckDuckGo's !bang redirect (!userstyles, !us, !ustyles)
+- Whether if it's in a private or regular window, just like Old Reddit Redirect, any Userstyles query redirects to the archive instead.
 
-- `reddit.com`
-- `www.reddit.com`
-- `np.reddit.com`
-- `amp.reddit.com`
-- `i.reddit.com`
+## ❎ What doesn't work?
+- DuckDuckGo's !bang redirect ***with*** a search query (!us ~~youtube~~, !ustyles ~~youtube~~, !userstyles ~~youtube~~)
+- Installing themes in private windows (that's another story)
 
-#### Whitelisted domains
+# How to install
 
-- `new.reddit.com`
+Go to the [Releases](https://github.com/RoboMolluskKing/usa-redirect/releases) and download the source code. Extract the source code into it's individual folder.
 
-## License
+- For Chrome, go to your Extensions, enable `Developer Options`, then click `Load unpacked` and select the extracted source code.
+- For Firefox, go to `about:debugging`, then `This Firefox`. Under Temporary Extensions, click on `Load Temporary Add-on`. Select the extracted source code. Keep in mind, this will remove the plugin once you close out Firefox.
 
-Code copyright Tom Watson. Code released under [the MIT license](LICENSE.txt).
+###### Keep in mind
+
+I'm new to GitHub. This is my first fork to play around. So don't expect much from me 😉

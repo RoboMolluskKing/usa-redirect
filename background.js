@@ -1,25 +1,17 @@
-const oldReddit = "https://old.reddit.com";
-const excludedPaths = ["/gallery", "/poll", "/rpan", "/settings", "/topics"];
+const usarch = "https://33kk.github.io/uso-archive/?search=";
 
 chrome.webRequest.onBeforeRequest.addListener(
   function (details) {
     const url = new URL(details.url);
 
-    if (url.hostname === "old.reddit.com") return;
+    if (url.hostname === "https://33kk.github.io/uso-archive/?search=") return;
 
-    for (const path of excludedPaths) {
-      if (url.pathname.indexOf(path) === 0) return;
-    }
 
-    return { redirectUrl: oldReddit + url.pathname + url.search + url.hash };
+    return {redirectUrl: usarch + url.search};
   },
   {
     urls: [
-      "*://reddit.com/*",
-      "*://www.reddit.com/*",
-      "*://np.reddit.com/*",
-      "*://amp.reddit.com/*",
-      "*://i.reddit.com/*",
+      "*://userstyles.org/*",
     ],
     types: [
       "main_frame",
