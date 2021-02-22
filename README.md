@@ -4,7 +4,7 @@ This extension is a hard fork of [Old Reddit Redirect.](https://github.com/tom-j
 
 The plugin will redirect you from userstyles.org to a privacy-friendly version instead, such as [33kk's Userstyles Archive](https://33kk.github.io/uso-archive/)
 
-It is highly recommended to install Stylus, ([(Chrome)](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [(Firefox)](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)) as Styl***ish*** steals your search history
+It is highly recommended to install Stylus, ([Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)) as Styl***ish*** steals your search history
 
 ![Screenshot](img/screenshot.png)
 
